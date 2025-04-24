@@ -1,14 +1,13 @@
-import { useState } from 'react'
 
 import Chai from "./ritesh.jsx"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const username = "ritesh"
 
   return (
     <>
-    <h1>react with vite | RG</h1>
-    <Chai/>
+      <h1>react with vite | RG {username}</h1>  {/*this variable is called as evaluated exp */}
+      <Chai/>
     </>   
   )
 }
