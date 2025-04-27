@@ -8,11 +8,21 @@ function App() {
   let [counter, setCounter] = useState(15)
 
   const increment = () => {
-    setCounter(counter+1)
+    // setCounter(counter+1)
+
+    // if u want to increment bulk of numbers
+    setCounter(prevCounter => prevCounter+1)
+    setCounter(prevCounter => prevCounter+1)
+    setCounter(prevCounter => prevCounter+1)
+    setCounter(prevCounter => prevCounter+1)
   } 
 
   const decrement = () => {
-    setCounter(counter-1)
+    // setCounter(counter-1)
+    setCounter(prevCounter => prevCounter-1)
+    setCounter(prevCounter => prevCounter-1)
+    setCounter(prevCounter => prevCounter-1)
+    setCounter(prevCounter => prevCounter-1)
   }
 
   return (
