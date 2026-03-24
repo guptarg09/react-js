@@ -2,22 +2,32 @@ import React from "react";
 
 function About () {
     return (
-        <div className="mx-auto w-full max-w-7xl">
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-                <img
-                    src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2NlYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="Image Description"
-                    className="object-cover object-center h-full w-full"
-                />
-                <div className="absolute inset-0 bg-gray-900/75 flex flex-col justify-center items-center text-center p-4">
-                    <h2 className="text-2xl font-bold text-white sm:text-4xl">About Us</h2>
-                    <p className="mt-4 text-lg text-gray-300 max-w-xl">
-                        We are a team of passionate individuals dedicated to providing the best services to our customers. Our mission is to create innovative solutions that make a difference in people's lives.
-                    </p>
+        <div className="py-16 bg-white">
+            <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+                <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                    <div className="md:5/12 lg:w-5/12 bg-gray-100 p-6 rounded-lg flex items-center justify-center">
+                        <img
+                            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8l8iFOXUXLi_gDpIfSFDskBEdGYakpG5a6-bcV67E7admcLLS"
+                            alt="image"
+                        />
+                    </div>
+                    <div className="md:7/12 lg:w-6/12">
+                        <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
+                            React development is carried out by passionate developers
+                        </h2>
+                        <p className="mt-6 text-gray-600">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
+                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
+                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                        </p>
+                        <p className="mt-4 text-gray-600">
+                            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
+                            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                        </p>
+                    </div>
                 </div>
-            </aside>
+            </div>
         </div>
     );
 }
-
 export default About;
